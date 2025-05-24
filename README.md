@@ -48,6 +48,10 @@ Concevoir un environnement de laboratoire virtuel accessible à distance, adapt�
 ### TP7 – Serveur Web local
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/fee0f01d-a4bd-42e8-a60d-79c4b4c28c05" />
 
+### TP8 – Versionnage et publication du projet avec Git & GitHub
+<img width="603" alt="image" src="https://github.com/user-attachments/assets/23390554-8973-48c4-9ab6-c0554a33b675" />
+<img width="644" alt="image" src="https://github.com/user-attachments/assets/499a0c35-482e-40ec-98ce-3aa44a560918" />
+
 
 ###  Tâche 3 – Connexion SSH à distance depuis Windows
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/b579e281-a727-4ad7-93b2-107411f33daa" />
