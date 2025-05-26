@@ -52,6 +52,74 @@ Concevoir un environnement de laboratoire virtuel accessible à distance, adapt�
 <img width="603" alt="image" src="https://github.com/user-attachments/assets/23390554-8973-48c4-9ab6-c0554a33b675" />
 <img width="644" alt="image" src="https://github.com/user-attachments/assets/499a0c35-482e-40ec-98ce-3aa44a560918" />
 
+### TP9 – Déploiement d’un serveur web local dans la VM Ubuntu
+
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/e8a207a0-41c3-49df-8d7a-61808c270654" />
+
+ Objectif
+Créer un service web pédagogique minimal (page HTML) hébergé dans la machine virtuelle Ubuntu, accessible depuis un poste distant (Windows) via navigateur, en simulant un laboratoire web.
+
+###  Outils utilisés
+Ubuntu 22.04 (VirtualBox)
+
+Python 3 (http.server)
+
+Navigateur (Chrome sous Windows)
+
+Réseau VM en mode "ponté"
+
+IP réelle de la VM : 192.168.100.68
+
+###  Étapes réalisées
+### Création de la page HTML :
+mkdir ~/tp9_web
+cd ~/tp9_web
+nano index.html
+### Contenu :
+html
+Copy
+Edit
+<h1>Bienvenue sur notre labo </h1>
+<p>Ce site est hébergé sur une VM Ubuntu dans un labo virtuel.</p>
+
+### Lancement du serveur web local :
+python3 -m http.server 8080
+
+### Accès à la page depuis Windows :
+http://192.168.100.68:8080
+
+
+
+##  TP10 – Connexion distante à la VM Ubuntu via VS Code Remote SSH
+
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/84fb74eb-d7df-43ba-ac79-b8be044b09f1" />
+
+
+###  Objectif
+Permettre à un étudiant de se connecter à une machine Ubuntu virtuelle à distance, depuis son poste Windows, via un environnement de développement professionnel (VS Code).
+
+---
+
+###  Outils utilisés
+- Visual Studio Code (sous Windows)
+- Extension officielle **Remote - SSH**
+- VM Ubuntu 22.04 avec `openssh-server`
+- Adresse IP de la VM : `192.168.100.68`
+
+---
+
+### 🛠 Étapes réalisées
+1. Installation de l’extension **Remote - SSH** dans VS Code
+2. Configuration de la connexion :
+   ```bash
+   Host vm-labo
+       HostName 192.168.100.68
+       User imane
+       RemoteCommand bash
+
+
+   
+---
 
 ###  Tâche 3 – Connexion SSH à distance depuis Windows
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/b579e281-a727-4ad7-93b2-107411f33daa" />
