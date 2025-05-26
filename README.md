@@ -54,10 +54,10 @@ Concevoir un environnement de laboratoire virtuel accessible à distance, adapt�
 
 ### TP9 – Déploiement d’un serveur web local dans la VM Ubuntu
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/e8a207a0-41c3-49df-8d7a-61808c270654" />
-
- Objectif
+###  Objectif
 Créer un service web pédagogique minimal (page HTML) hébergé dans la machine virtuelle Ubuntu, accessible depuis un poste distant (Windows) via navigateur, en simulant un laboratoire web.
+
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/e8a207a0-41c3-49df-8d7a-61808c270654" />
 
 ###  Outils utilisés
 Ubuntu 22.04 (VirtualBox)
@@ -92,12 +92,12 @@ http://192.168.100.68:8080
 
 ##  TP10 – Connexion distante à la VM Ubuntu via VS Code Remote SSH
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/84fb74eb-d7df-43ba-ac79-b8be044b09f1" />
-
-
 ###  Objectif
 Permettre à un étudiant de se connecter à une machine Ubuntu virtuelle à distance, depuis son poste Windows, via un environnement de développement professionnel (VS Code).
+  
+  <img width="415" alt="image" src="https://github.com/user-attachments/assets/84fb74eb-d7df-43ba-ac79-b8be044b09f1" />
 
+  
 ---
 
 ###  Outils utilisés
